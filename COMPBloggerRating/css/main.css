@@ -1,0 +1,111 @@
+body {
+    background-color: white;
+    color: black;
+}
+body.dark {
+    background-color: darkgray;
+    color: black;
+}
+* {
+    box-sizing: border-box;
+}
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+.label {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3.125rem;
+    position: relative;
+    padding: 0.313rem;
+    width: 3.125rem;
+    height: 1.625rem;
+}
+.moon {
+    height: 1.125rem;
+    width: 1.125rem;
+}
+.sun {
+    height: 1.125rem;
+    width: 1.125rem;
+}
+.ball {
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.125rem;
+    left: 0.125rem;
+    height: 1.375rem;
+    width: 1.375rem;
+    transition: transform 200ms linear;
+}
+.checkbox:checked + .label .ball {
+    transform: translateX(1.5rem);
+    background-color: royalBlue;
+}
+.header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1.125rem;
+    border: black solid;
+}
+.margin {
+    margin: 1rem;
+}
+.marginTop {
+    margin-top: 1rem;
+}
+.outline {
+    border: royalblue solid;
+}
+.height {
+    height: 100%;
+}
+h3 {
+    text-align: center;
+}
+.headerLink a {
+    text-decoration: none;
+    color: black;
+}
+.invalid {
+    color: red;
+}
+table {
+    margin-top: 1rem;
+}
+td {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+label {
+    font-size: 1.75rem;
+}
+.description {
+    text-align: center;
+}
+.description #description {
+    border: lightgreen solid;
+}
+.description h3 {
+    margin: 1.125rem;
+}
+.description p {
+    margin: auto;
+    padding: 1.125rem;
+}
+.pdf {
+    height: 100%;
+    width: 100%;
+}
+.blogCards {
+    padding: 1rem;
+    font-weight: bold;
+}
+button {
+    color: green;
+}
