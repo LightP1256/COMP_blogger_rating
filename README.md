@@ -1,4 +1,5 @@
 # Basic Blogs
+
 Website that allows users to looks at topics of interest within blogging and chat with other users. Admins can add new topics, categories and blogs or edit and change existing topics, categories and blogs. 
 #Requirements
 * Node 
