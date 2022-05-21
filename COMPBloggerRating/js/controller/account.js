@@ -25,7 +25,8 @@ $(function () {
         Cookies.remove("user");
         localStorage.removeItem("topic");
         location.reload();
-    })
+        location.replace("login")
+    });
     // To show popup for change email
     $('#btnChangeEmail').click(function () {
         $('#changeEmail').modal('show');

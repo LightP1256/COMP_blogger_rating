@@ -1,12 +1,11 @@
 class User {
-    constructor(UserID, FirstName, LastName, Username, Email, DOB, Gender) {
+    constructor(UserID, FirstName, LastName, Username, Email, DOB) {
         this.userID = UserID;
         this.firstName = FirstName;
         this.lastName = LastName;
         this.username = Username;
         this.email = Email;
         this.dob = DOB;
-        this.gender = Gender;
     }
     // UserID
     get getUserID() {
