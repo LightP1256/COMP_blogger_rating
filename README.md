@@ -1,10 +1,12 @@
 # Basic Blogs
 
 Website that allows users to looks at topics of interest within blogging and chat with other users. Admins can add new topics, categories and blogs or edit and change existing topics, categories and blogs. 
-#Requirements
+
+# Requirements
 * Node 
 * Git
-#Setup
+
+# Setup
 Clone the repo and install the dependencies.
 ```bash
 git clone https://github.com/LightP1256/COMP_blogger_rating.git
